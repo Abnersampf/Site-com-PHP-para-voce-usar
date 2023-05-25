@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/Recuperar senha.css">
+  <script type="text/javascript" src="Scripts/Recuperar senha.js"></script>
+  <title>Recuperar senha</title>
+</head>
+<body>
+  <form id="formulario-recuperar_senha" method="post" action="Instruções enviadas.html">
+    <div id="principal">
+      <h1>Recuperar minha senha</h1>
+      <p>Iremos enviar um e-mail com as instruções de recuperação de senha para o e-mail vinculado a sua conta.</p>
+      <p>Informe abaixo, o e-mail que está associado a sua conta (é o e-mail que você utilizou na hora de criar sua conta):</p>
+      <p id="texto">Digite seu e-mail:</p>
+      <input type="text" placeholder="E-mail" id="email">
+      <div id="faltouEmail"></div>
+      <input type="button" id="recuperar-senha" value="Recuperar senha" onclick="validaFormularioRecuperarSenha()">
+    </div>
+  </form>
+</body>
+</html>

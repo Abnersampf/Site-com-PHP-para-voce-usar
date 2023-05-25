@@ -1,0 +1,2 @@
+1 - Crie o banco de dados com o arquivo sql.txt
+2 - Altere as configurações de porta, usuário e senha com o arquivo conexao.php

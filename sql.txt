@@ -1,0 +1,10 @@
+create database informacoes;
+
+use informacoes;
+
+create table users
+(codigo int primary key auto_increment,
+usuario varchar(50) not null,
+senha varchar(20) not null,
+email varchar(50) not null,
+pontos int);
