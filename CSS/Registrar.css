@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, #090011, #230047);
+}
+#principal{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 7px;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+#usuario{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #161616;
+    color: #8000ff;
+}
+#usuario:hover{
+    outline-color: #6300c5;
+    outline-style: solid;
+}
+#usuario:-webkit-autofill {
+    box-shadow: #161616;
+    -webkit-box-shadow: 0 0 0 1000px #161616 inset;
+    -webkit-text-fill-color: #8000ff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+#senha{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #161616;
+    color: #8000ff;
+}
+#senha:hover{
+    outline-color: #6300c5;
+    outline-style: solid;
+}
+#senha:-webkit-autofill {
+    box-shadow: #161616;
+    -webkit-box-shadow: 0 0 0 1000px #161616 inset;
+    -webkit-text-fill-color: #8000ff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+#email{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #161616;
+    color: #8000ff;
+    width: 95.5%;
+}
+#email:hover{
+    outline-color: #6300c5;
+    outline-style: solid;
+}
+#email:-webkit-autofill {
+    box-shadow: #161616;
+    -webkit-box-shadow: 0 0 0 1000px #161616 inset;
+    -webkit-text-fill-color: #8000ff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+label{
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+}
+#termos{
+    font-size: 14px;
+    text-decoration: none;
+    color: #6300c5;
+}
+#termos:hover{
+    color:#8000ff;
+}
+#termos:visited{
+    color:#ae00ff;
+}
+#criar-conta{
+    background-color: #6300c5;
+    border: none;
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-left: 25%;
+}
+#criar-conta:hover{
+    background-color: #8000ff;
+    cursor: pointer;
+}
+#jaTenhoConta{
+    color:#6300c5;
+    font-size: 13px;
+    margin-left: 37%;
+    text-decoration: none;
+}
+#jaTenhoConta:hover{
+    color:#8000ff;
+}
+#jaTenhoConta:visited{
+    color:#ae00ff;
+}

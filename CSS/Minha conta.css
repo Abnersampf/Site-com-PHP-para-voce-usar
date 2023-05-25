@@ -1,0 +1,78 @@
+*{
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161616;
+}
+#caixa{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    font-weight: 500;
+    border:5px solid #8000ff;;
+}
+#caixaInterior{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 350px;
+    text-align: center;
+}
+#user{
+    width: 100px;
+    height: 100px;
+}
+h2{
+    color:#8000ff;
+    font-weight: 100;
+    font-size: 15px;
+}
+#borda{
+    border-bottom: 3px solid #8000ff;
+    width: 150px;
+    margin: 0 auto;
+}
+#nomeUsuário{
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 30px 5%;
+    
+}
+#nomeUsuárioFinal{
+    color: #8000ff;
+}
+#email{
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 30px 5%;
+}
+#emailFinal{
+    color: #8000ff;
+}
+#senha{
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 30px 5%;
+}
+#senhaFinal{
+    color: #8000ff;
+}

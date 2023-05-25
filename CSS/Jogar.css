@@ -1,0 +1,106 @@
+/*#161616*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161616;
+}
+#caixa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: 
+    linear-gradient(to right, #161616, #161616), 
+    linear-gradient(to right, #6200ff , #dfc0ff); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    width: 80vw;
+    height: 80vh;
+    padding: 12px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 0 30px #8000ff, inset 0 0 30px #8000ff;
+    border: 8px solid transparent;
+    border-radius: 15px;
+}
+#itens-palavra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#palavra{
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 10px #8000ff, 0 0 20px #8000ff, 0 0 30px #8000ff, 0 0 40px #8000ff, 0 0 50px #8000ff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #efdfff;
+    text-align: center;
+    font-size: 60px;
+}
+#entradaDeDados{
+    text-align: center;
+}
+#escreverPalavra{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    background-color: #000000;
+    color: #8000ff;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 7px;
+}
+#escreverPalavra:hover{
+    outline-color: #8000ff;
+    outline-style: solid;
+}
+#escreverPalavra:-webkit-autofill {
+    box-shadow: #161616;
+    -webkit-box-shadow: 0 0 0 1000px #161616 inset;
+    -webkit-text-fill-color: #8000ff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+#conferir{
+    background-color: #6300c5;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+}
+#conferir:hover{
+    background-color: #8000ff;
+    cursor: pointer;
+}
+#nada{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+#incorreta{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+#pontosPai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 10px #8000ff, 0 0 20px #8000ff, 0 0 30px #8000ff, 0 0 40px #8000ff, 0 0 50px #8000ff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #efdfff;
+    font-size: 20px;
+}
+#pontos{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 10px #8000ff, 0 0 20px #8000ff, 0 0 30px #8000ff, 0 0 40px #8000ff, 0 0 50px #8000ff, 0 0 60px #8000ff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #efdfff;
+}
